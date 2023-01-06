@@ -1,0 +1,24 @@
+*{
+    font-family: "Sen", sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding: 20px 5px;
+    background: rgb(104, 71, 194);
+    border: 3px solid rgb(104, 71, 194);
+    width: 360px;
+    height: 460px;
+    margin: 40px;
+    background-image: url(https://i.pinimg.com/736x/b4/38/6e/b4386ed3d40ad15bfbe296b4821bdf3e.jpg);
+    background-size: cover;
+    /* background-size: 100px ; */
+    background-repeat:no-repeat;
+    /* background-clip: content-box; */
+    /* background-origin: content-box; */
+    /* background-position: right top; */
+    background-attachment: fixed;
+
+    
+}
+

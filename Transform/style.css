@@ -1,0 +1,31 @@
+*{
+    font-family: "Sen", sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding: 20px 5px;
+    background: rgb(104, 71, 194);
+    
+}
+
+.caja {
+    background: rgb(26, 4, 122);
+    height: 80px;
+    width: 80px;
+    margin: 20px; 
+    display: flex;
+    color:#fff;
+  transition: transform 1s;
+  transform: skew(30deg);
+}
+
+.caja:hover {
+/* transform: scaleX(1.4) translate(50px); */
+/* transform: skew(180deg); */
+}
+
+b{
+    margin: auto;
+    transform: skew(-30deg);
+}

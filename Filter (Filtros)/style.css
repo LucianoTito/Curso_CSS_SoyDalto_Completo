@@ -1,0 +1,20 @@
+*{
+    font-family: "Sen", sans-serif;
+    font-weight: 100;
+}
+
+div{
+    filter:blur(0px); /*desenfoca la imagen*/
+    filter: brightness(1); /*modifica el brillo*/
+    filter:contrast(0.89); /*modifica el contraste*/
+    filter:drop-shadow(0px 0px 10px #000); /*modifica las sombras en la imagen, sirve también para imagenes con fondos blancos*/
+    filter:grayscale();
+    filter: hue-rotate(/*insertar grados deg*/); /*invierte los colores*/
+    filter:invert(/*insertar porcentajes*/); /*tambien invierte los colores pero de otra forma*/
+    filter:opacity(/*funciona del 0 a 1 */);
+    filter: saturate(/*porcentaje*/) /*satura la imagen*/;
+    /* filter:sepia(); */
+
+
+}
+

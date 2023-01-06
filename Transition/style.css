@@ -1,0 +1,45 @@
+*{
+    font-family: "Sen", sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    padding: 20px 5px;
+    background: rgb(25, 83, 207);
+    
+}
+
+.caja {
+    background: rgb(130, 21, 177);
+    height: 100px;
+    width: 100px;
+    transition-property:inherit;
+    transition-duration: 1.5s;
+    transition-delay: .5s;
+    margin: 30px;
+    
+}
+
+.caja:hover{
+    background: rgb(15, 167, 40);
+}
+
+.caja:first-child{ 
+    transition-timing-function: ease;
+    
+}
+
+.caja:nth-child(2){
+    transition-timing-function: linear;
+
+}
+.caja:nth-child(3){
+    transition-timing-function: ease-in;
+    
+}
+.caja:nth-child(4){
+    transition-timing-function: ease-out;
+}
+.caja:nth-child(5){
+    transition-timing-function: ease-in-out;
+}
